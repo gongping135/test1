@@ -25,6 +25,7 @@ int main(int argc, char **argv)
     ros::NodeHandle n;
     ros::NodeHandle n1;
     ros::NodeHandle n3;
+    ros::NodeHandle n4;
     // 创建一个Subscriber，订阅名为/turtle1/pose的topic，注册回调函数poseCallback
     ros::Subscriber pose_sub = n.subscribe("/turtle1/pose", 10, poseCallback);
 
