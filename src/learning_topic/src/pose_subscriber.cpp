@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 
     // 创建节点句柄
     ros::NodeHandle n;
-
+    ros::NOdeHandle n1;
     // 创建一个Subscriber，订阅名为/turtle1/pose的topic，注册回调函数poseCallback
     ros::Subscriber pose_sub = n.subscribe("/turtle1/pose", 10, poseCallback);
 
