@@ -1,0 +1,16 @@
+# 编译产物
+build/
+devel/
+install/
+log/
+
+# 系统/编辑器文件
+.vscode/
+.idea/
+*.swp
+*~
+
+# ROS通信文件
+*.bag
+*.pgm
+*.yaml.bak
